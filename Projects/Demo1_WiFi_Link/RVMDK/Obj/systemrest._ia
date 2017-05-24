@@ -1,0 +1,6 @@
+--cpu Cortex-M3 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1" -I..\..\..\Demos\Demo1_WiFi_Link
+-I "F:\wifi_project\mxchipWNet Demo EMW316x\Projects\Demo1_WiFi_Link\RVMDK\RTE"
+-I e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-I e:\Keil_v5\ARM\PACK\Keil\STM32F2xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F2xx\Include
+--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F205xx SETA 1"
+--list .\lst\systemrest.lst --xref -o .\obj\systemrest.o --depend .\obj\systemrest.d "systemrest.s"

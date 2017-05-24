@@ -1,0 +1,18 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000         
+                       
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\obj\data_commution.d -o.\obj\data_commution.o -I"F:\³£ºÆÕÜ\²Î¿¼×
+ÊÁÏ\wifi\EMW3162\¶þ´Î¿ª·¢\¹ý³Ì´úÂë\mxchipWNet Demo EMW316x\Projects\Demo1_WiFi
+_Link\RVMDK\RTE" -ID:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -ID:\Keil_
+v5\ARM\PACK\Keil\STM32F2xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F2xx\Include 
+--predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 517" --pred
+efine="_RTE_ SETA 1" --predefine="STM32F205xx SETA 1" --list=.\lst\data_commuti
+on.lst Data_commution.s
+334 symbols in table
